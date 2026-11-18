@@ -1,0 +1,280 @@
+{
+  "leads": [
+    {
+      "id": "lead-1794987637700",
+      "fullName": "Test Customer Automated",
+      "phone": "(555) 019-2834",
+      "email": "test@example.com",
+      "propertyAddress": "",
+      "zipCode": "75201",
+      "serviceRequired": "Standing Seam Metal Roofing",
+      "problemDescription": "Online customer inquiry submitted.",
+      "preferredDate": "",
+      "preferredTime": "",
+      "status": "New",
+      "assignedTo": "Dispatch Team",
+      "internalNotes": "Received via Website Form. Follow-up priority standard.",
+      "estimatedValue": 12500,
+      "createdAt": "2026-11-18T07:40:37.700Z",
+      "source": "Website Estimate Form",
+      "photos": []
+    },
+    {
+      "id": "lead-101",
+      "fullName": "Robert Henderson",
+      "phone": "(214) 555-0182",
+      "email": "r.henderson@example.com",
+      "propertyAddress": "4820 Highland Park Blvd, Dallas, TX",
+      "zipCode": "75205",
+      "serviceRequired": "Roof Replacement",
+      "problemDescription": "22-year-old architectural shingles losing granules, several lifted tabs after recent storm.",
+      "preferredDate": "2026-11-20",
+      "preferredTime": "10:00 AM",
+      "status": "Inspection Scheduled",
+      "assignedTo": "Marcus Vance (Senior Estimator)",
+      "internalNotes": "Homeowner interested in upgrading to Standing Seam Metal roofing. Roof pitch 8/12.",
+      "estimatedValue": 18500,
+      "createdAt": "2026-11-17T09:30:00Z",
+      "source": "Website Free Inspection Form",
+      "photos": []
+    },
+    {
+      "id": "lead-102",
+      "fullName": "Sarah Jenkins",
+      "phone": "(512) 555-4391",
+      "email": "sjenkins@example.com",
+      "propertyAddress": "1204 Barton Springs Rd, Austin, TX",
+      "zipCode": "78704",
+      "serviceRequired": "Hail Damage Repair",
+      "problemDescription": "Severe hail storm last weekend. Neighbors already filing insurance claims. Dents visible on vents.",
+      "preferredDate": "2026-11-21",
+      "preferredTime": "02:00 PM",
+      "status": "Estimate Sent",
+      "assignedTo": "David Ramirez (Storm Specialist)",
+      "internalNotes": "Insurance adjuster meeting scheduled for Thursday. Provided storm photo documentation packet.",
+      "estimatedValue": 14200,
+      "createdAt": "2026-11-16T14:15:00Z",
+      "source": "Storm Damage Center",
+      "photos": []
+    },
+    {
+      "id": "lead-103",
+      "fullName": "Michael Chang",
+      "phone": "(713) 555-7729",
+      "email": "mchang.invest@example.com",
+      "propertyAddress": "890 Westheimer Rd, Houston, TX",
+      "zipCode": "77006",
+      "serviceRequired": "Commercial Roofing",
+      "problemDescription": "TPO flat roof membrane showing minor ponding water and seam separation on east parapet.",
+      "preferredDate": "2026-11-22",
+      "preferredTime": "09:00 AM",
+      "status": "New",
+      "assignedTo": "Pending Assignment",
+      "internalNotes": "Commercial property manager with 3 retail strip locations.",
+      "estimatedValue": 42000,
+      "createdAt": "2026-11-18T08:10:00Z",
+      "source": "AI Roofing Chatbot",
+      "photos": []
+    },
+    {
+      "id": "lead-104",
+      "fullName": "Eleanor Vance",
+      "phone": "(210) 555-3810",
+      "email": "eleanor.vance@example.com",
+      "propertyAddress": "310 Stone Oak Pkwy, San Antonio, TX",
+      "zipCode": "78258",
+      "serviceRequired": "Tile Roofing",
+      "problemDescription": "Spanish clay tile cracked near valley after fallen oak branch.",
+      "preferredDate": "2026-11-19",
+      "preferredTime": "11:00 AM",
+      "status": "Approved",
+      "assignedTo": "Carlos Ortiz (Master Craftsman)",
+      "internalNotes": "Contract signed, deposit cleared. Matching terracotta tiles sourced.",
+      "estimatedValue": 6800,
+      "createdAt": "2026-11-15T11:00:00Z",
+      "source": "Cost Estimator Tool",
+      "photos": []
+    }
+  ],
+  "bookings": [
+    {
+      "id": "bk-201",
+      "leadId": "lead-101",
+      "customerName": "Robert Henderson",
+      "phone": "(214) 555-0182",
+      "email": "r.henderson@example.com",
+      "address": "4820 Highland Park Blvd, Dallas, TX 75205",
+      "zipCode": "75205",
+      "service": "Roof Replacement",
+      "date": "2026-11-20",
+      "timeSlot": "10:00 AM - 12:00 PM",
+      "status": "Confirmed",
+      "notes": "Gate code #4490. Dogs will be indoors.",
+      "createdAt": "2026-11-17T09:35:00Z"
+    },
+    {
+      "id": "bk-202",
+      "leadId": "lead-102",
+      "customerName": "Sarah Jenkins",
+      "phone": "(512) 555-4391",
+      "email": "sjenkins@example.com",
+      "address": "1204 Barton Springs Rd, Austin, TX 78704",
+      "zipCode": "78704",
+      "service": "Hail Damage Inspection",
+      "date": "2026-11-21",
+      "timeSlot": "02:00 PM - 04:00 PM",
+      "status": "Confirmed",
+      "notes": "Adjuster will be present at 2:30 PM.",
+      "createdAt": "2026-11-16T14:20:00Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": "APX-7821",
+      "projectNumber": "APX-7821",
+      "customerName": "Robert Henderson",
+      "address": "4820 Highland Park Blvd, Dallas, TX",
+      "service": "Full Roof Replacement",
+      "material": "Standing Seam Metal - 24 Gauge",
+      "color": "Matte Charcoal Black",
+      "status": "Installation In Progress",
+      "currentStep": 4,
+      "startDate": "2026-11-18",
+      "estimatedCompletion": "2026-11-21",
+      "contractAmount": 18500,
+      "paidAmount": 9250,
+      "crewLeader": "Carlos Mendez (OSHA 30 Certified)",
+      "crewLeaderPhone": "(214) 555-9011",
+      "photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1632759145351-1d592919f522?auto=format&fit=crop&w=1000&q=80",
+          "title": "Decking Inspection & Synthetic Felt Underlayment",
+          "date": "Nov 18, 2026"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1590381105924-c72589b9ef3f?auto=format&fit=crop&w=1000&q=80",
+          "title": "Drip Edge and Valley Ice & Water Barrier Installation",
+          "date": "Nov 18, 2026"
+        }
+      ],
+      "documents": [
+        {
+          "name": "Apex_Detailed_Contract_APX-7821.pdf",
+          "type": "Contract",
+          "date": "Nov 15, 2026",
+          "size": "2.4 MB"
+        },
+        {
+          "name": "Manufacturer_50Yr_Warranty_Registration.pdf",
+          "type": "Warranty",
+          "date": "Nov 17, 2026",
+          "size": "1.1 MB"
+        },
+        {
+          "name": "Pre-Installation_Drone_Inspection_Report.pdf",
+          "type": "Inspection Report",
+          "date": "Nov 12, 2026",
+          "size": "8.7 MB"
+        }
+      ]
+    },
+    {
+      "id": "APX-6502",
+      "projectNumber": "APX-6502",
+      "customerName": "Amanda Clark",
+      "address": "3418 River Oaks Blvd, Houston, TX",
+      "service": "Designer Shingle Replacement",
+      "material": "CertainTeed Landmark Architectural Shingles",
+      "color": "Weathered Wood",
+      "status": "Completed & Warranted",
+      "currentStep": 6,
+      "startDate": "2026-11-02",
+      "estimatedCompletion": "2026-11-04",
+      "contractAmount": 14800,
+      "paidAmount": 14800,
+      "crewLeader": "David Hayes",
+      "crewLeaderPhone": "(713) 555-8832",
+      "photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1000&q=80",
+          "title": "Completed Project Final Walkthrough",
+          "date": "Nov 04, 2026"
+        }
+      ],
+      "documents": [
+        {
+          "name": "Final_Inspection_Signoff_APX-6502.pdf",
+          "type": "Certificate",
+          "date": "Nov 04, 2026",
+          "size": "1.8 MB"
+        },
+        {
+          "name": "Apex_Lifetime_Workmanship_Warranty.pdf",
+          "type": "Warranty",
+          "date": "Nov 04, 2026",
+          "size": "950 KB"
+        }
+      ]
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev-1",
+      "author": "David & Kimberly Sterling",
+      "location": "Dallas, TX (Highland Park)",
+      "rating": 5,
+      "service": "Standing Seam Metal Roof Installation",
+      "date": "2 weeks ago",
+      "content": "Apex Roofing Co. exceeded every expectation. From the 3D model demonstration during our initial estimate to the immaculate magnet sweep of our driveway after completion. The metal roof looks like modern art and has already lowered our AC bills.",
+      "verified": true,
+      "source": "Google"
+    },
+    {
+      "id": "rev-2",
+      "author": "Marcus Thorne",
+      "location": "Austin, TX (Westlake Hills)",
+      "rating": 5,
+      "service": "Storm Damage & Insurance Claim",
+      "date": "1 month ago",
+      "content": "When 2-inch hail wrecked our neighborhood, Apex showed up the next morning with emergency tarping. Their storm specialist David met our insurance adjuster directly and ensured all collateral damage was covered. Honest, prompt, and top-tier craftsmanship.",
+      "verified": true,
+      "source": "Google"
+    },
+    {
+      "id": "rev-3",
+      "author": "Elena Rostova",
+      "location": "Houston, TX (The Woodlands)",
+      "rating": 5,
+      "service": "Architectural Shingle Replacement",
+      "date": "2 months ago",
+      "content": "The customer portal was a game changer! Being able to see daily drone photos while I was at work gave me complete peace of mind. The crew was respectful, courteous, and finished in just two days.",
+      "verified": true,
+      "source": "Google"
+    },
+    {
+      "id": "rev-4",
+      "author": "Jason Vance, HOA Board Member",
+      "location": "San Antonio, TX (Stone Oak)",
+      "rating": 5,
+      "service": "Tile Roofing Restoration",
+      "date": "3 months ago",
+      "content": "Finding a contractor with true Spanish clay tile expertise in Texas is rare. Apex matched our 30-year-old terracotta tiles flawlessly. Not a single cracked tile or debris left in the gardens.",
+      "verified": true,
+      "source": "Google"
+    }
+  ],
+  "subscribers": [
+    {
+      "id": "sub-1",
+      "email": "homeowner@txmail.com",
+      "name": "Greg Foster",
+      "zipCode": "75001",
+      "preferences": [
+        "Seasonal Maintenance",
+        "Post-Storm Alerts",
+        "Gutter Cleaning"
+      ],
+      "createdAt": "2026-11-10T12:00:00Z"
+    }
+  ]
+}

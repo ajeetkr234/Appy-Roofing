@@ -1,0 +1,184 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    color: #F1F5F9;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Manrope', 'Inter', sans-serif;
+    letter-spacing: -0.02em;
+  }
+
+  p {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+    font-weight: 400;
+  }
+}
+
+@layer utilities {
+  /* Refined, Prestigious Heading Scale (Tailored for Modern US Architecture) */
+  .type-h1 {
+    font-family: 'Manrope', 'Inter', sans-serif;
+    font-size: 32px;
+    line-height: 1.15;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+  @media (min-width: 640px) {
+    .type-h1 {
+      font-size: 42px;
+      line-height: 1.12;
+    }
+  }
+  @media (min-width: 1024px) {
+    .type-h1 {
+      font-size: 52px;
+      line-height: 1.12;
+    }
+  }
+
+  /* Refined Section H2 */
+  .type-h2 {
+    font-family: 'Manrope', 'Inter', sans-serif;
+    font-size: 26px;
+    line-height: 1.25;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+  @media (min-width: 640px) {
+    .type-h2 {
+      font-size: 32px;
+      line-height: 1.2;
+    }
+  }
+  @media (min-width: 1024px) {
+    .type-h2 {
+      font-size: 38px;
+      line-height: 1.2;
+    }
+  }
+
+  /* Refined Card & Subsection H3 */
+  .type-h3 {
+    font-family: 'Manrope', 'Inter', sans-serif;
+    font-size: 19px;
+    line-height: 1.35;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+  @media (min-width: 640px) {
+    .type-h3 {
+      font-size: 21px;
+    }
+  }
+
+  /* Body Text */
+  .type-body-lead {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 400;
+  }
+  @media (min-width: 640px) {
+    .type-body-lead {
+      font-size: 17px;
+    }
+  }
+
+  .type-body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: 400;
+  }
+
+  /* Navigation: 15px, font-weight 500-600 */
+  .type-nav {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+  @media (min-width: 1280px) {
+    .type-nav {
+      font-size: 15px;
+    }
+  }
+
+  /* Buttons: 14-15px, elegant semi-bold */
+  .type-btn {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    white-space: nowrap;
+  }
+  @media (min-width: 640px) {
+    .type-btn {
+      font-size: 15px;
+    }
+  }
+
+  /* Subtle Section Badge */
+  .type-badge {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  @media (min-width: 640px) {
+    .type-badge {
+      font-size: 12px;
+    }
+  }
+}
+
+/* Custom Sleek Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #091321;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1E293B;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #F59E0B;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #101D30;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 3px;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
